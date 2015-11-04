@@ -1,0 +1,25 @@
+{
+  "name": "expandable-area-toggle",
+  "version": "1.0.0",
+  "authors": [
+    "Emir Kuljanin <emir.kuljanin@gavle.se>"
+  ],
+  "description": "Allows the use of data-tags in html to create expandable elements with closed/open buttons.",
+  "main": "dist/expandablearea.min.js",
+  "keywords": [
+    "expandable",
+    "toggle",
+    "slide"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
