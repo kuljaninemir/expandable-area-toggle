@@ -5,10 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Expandable area example</title>
+  <title>expandable-area-toggle example</title>
 
   <!-- Bootstrap -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="expandableareastyle.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,20 +23,23 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <h1>Expandable area example</h1>
-            <button data-gk-closed-text="Visa ruta 1" data-gk-open-text="Stäng ruta 1" data-gk-open-class="toggleDiv1" class="gkToggleButton btn btn-default" type="button">Stäng ruta 1</button>
-            <button data-gk-closed-text="Visa rutor 2 och 3" data-gk-open-text="Stäng rutor 2 och 3" data-gk-open-class="toggleDiv2" class="gkToggleButton btn btn-default" type="button">Stäng rutor 2 och 3</button>
-            <div style="height:50px;"></div>
+            <h1>expandable-area-toggle example</h1>
+            <button data-gk-area-state="closed" data-gk-close-text="Close area 1" data-gk-open-text="Open area 1" data-gk-open-class="toggleDiv1" class="btn btn-primary" type="button">Close area 1</button>
+            <div class="clearfix"></div>
+            <button data-gk-area-state="closed" data-gk-closed-text="Close areas 2 and 3" data-gk-open-text="Open areas 2 and 3" data-gk-open-class="toggleDiv2" class="btn btn-primary" type="button">Close areas 2 and 3</button>
+            <div class="spacingDiv"></div>
+          <div class="toggleDiv1 col-md-12 toggleDiv">
+              <p>Expandable area 1.</p>
           </div>
-          <div class="toggleDiv1 col-md-12">
-              <p style="height:200px; width:100%; background-color:gray;">Expandable area 1.</p>
+          <div class="toggleDiv2 col-md-12 toggleDiv">
+              <p>Expandable area 2.</p>
           </div>
-          <div class="toggleDiv2 col-md-12">
-              <p style="height:200px; width:100%; background-color:gray;">Expandable area 2.</p>
-          </div>
-          <div class="toggleDiv2 col-md-12">
-              <p style="height:200px; width:100%; background-color:gray;">Expandable area 3.</p>
+          <div class="toggleDiv2 col-md-12 toggleDiv">
+              <p>Expandable area 3.</p>
+              <button data-gk-area-state="closed" data-gk-open-class="toggleDiv4" class="btn btn-primary" type="button">Toggle area 4</button>
+              <div class="toggleDiv4 col-md-12 toggleDivInner">
+                <p>Expandable area 4.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -42,6 +47,6 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-      <script src="expandablearea.js"></script>
+      <script src="expandableareatoggle.js"></script>
     </body>
     </html>

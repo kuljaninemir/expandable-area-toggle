@@ -1,0 +1,37 @@
+h1{
+	margin-top:50px;
+	margin-bottom:30px;
+	width:100%;
+	text-align: center;
+}
+
+.spacingDiv{
+	height:50px;
+}
+
+.toggleDiv{
+	padding:20px;
+	width:100%; 
+	background-color:gray;
+	margin-bottom: 30px;
+	border-radius: 4px;
+}
+
+.toggleDivInner{
+	padding:20px;
+	width:100%; 
+	background-color:white;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+}
+
+.toggleDiv p {
+	font-size:20px;
+}
+
+.btn{
+	font-size: 18px;
+	width:250px;
+	margin-top: 15px;
+}
