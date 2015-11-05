@@ -7,8 +7,8 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Expandable area example</title>
 
-<!-- Bootstrap -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,32 +18,26 @@
       <![endif]-->
     </head>
     <body>
-      
-<div class="container">
-      <div class="row">
-        <div class="col-md-12">
-        <h1>Expandable area example</h1>
-          <button data-gk-closed-text="Visa ruta 1" data-gk-open-text="Stäng ruta 1" data-gk-open-class="toggleDiv1" class="gkToggleButton btn btn-default" type="button">Stäng ruta 1</button>
-          <button data-gk-closed-text="Visa rutor 2 och 3" data-gk-open-text="Stäng rutor 2 och 3" data-gk-open-class="toggleDiv2" class="gkToggleButton btn btn-default" type="button">Stäng rutor 2 och 3</button>
-          <div style="height:50px;"></div>
-        </div>
-        <div class="toggleDiv1">
+
+      <div class="container">
+        <div class="row">
           <div class="col-md-12">
-          <p style="height:200px; width:100%; background-color:gray;">Expandable area 1.</p>
+            <h1>Expandable area example</h1>
+            <button data-gk-closed-text="Visa ruta 1" data-gk-open-text="Stäng ruta 1" data-gk-open-class="toggleDiv1" class="gkToggleButton btn btn-default" type="button">Stäng ruta 1</button>
+            <button data-gk-closed-text="Visa rutor 2 och 3" data-gk-open-text="Stäng rutor 2 och 3" data-gk-open-class="toggleDiv2" class="gkToggleButton btn btn-default" type="button">Stäng rutor 2 och 3</button>
+            <div style="height:50px;"></div>
           </div>
-        </div>
-        <div class="toggleDiv2">
-          <div class="col-md-12">
-          <p style="height:200px; width:100%; background-color:gray;">Expandable area 2.</p>
+          <div class="toggleDiv1 col-md-12">
+              <p style="height:200px; width:100%; background-color:gray;">Expandable area 1.</p>
           </div>
-        </div>
-        <div class="toggleDiv2">
-          <div class="col-md-12">
-          <p style="height:200px; width:100%; background-color:gray; dis">Expandable area 3.</p>
+          <div class="toggleDiv2 col-md-12">
+              <p style="height:200px; width:100%; background-color:gray;">Expandable area 2.</p>
+          </div>
+          <div class="toggleDiv2 col-md-12">
+              <p style="height:200px; width:100%; background-color:gray;">Expandable area 3.</p>
           </div>
         </div>
       </div>
-</div>
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
