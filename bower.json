@@ -4,7 +4,7 @@
   "authors": [
     "Emir Kuljanin <emir.kuljanin@gavle.se>"
   ],
-  "description": "Allows the use of data-tags in html to create expandable elements with closed/open buttons.",
+  "description": "Use data-tags in html to create expandable elements with closed/open buttons.",
   "main": "dist/expandablearea.min.js",
   "keywords": [
     "expandable",
