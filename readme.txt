@@ -18,3 +18,5 @@ expandable-area-toggle is a javascript solution for creating expandable html-ele
 - data-gk-open-class = "foobar". This value should be the class of the expandable div(s). 
 - data-gk-close-text = "Close me". This determines what the close-button text should be. Optional.
 - data-gk-open-text = "Open me". This determines what the open-button text should be. Optional.
+- data-gk-close-span-glyph = "glyphicon-class". This determines what the close-button glyphicon should be. Optional. Example: "glyphicon-minus".
+- data-gk-open-span-glyph = "glyphicon-class". This determines what the open-button glyphicon-class should be. Optional. Example: "glyphicon-plus".
