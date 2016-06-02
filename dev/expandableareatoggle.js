@@ -1,4 +1,5 @@
-$(function () {
+(function($) {
+  $(function () {
 
     var open = "open";
     var closed = "closed";
@@ -46,4 +47,5 @@ $(function () {
             $("." + $(this).data(openClass)).slideToggle();
         });
     });
-});
+  });
+})(jQuery); // Fully reference jQuery after this point.
